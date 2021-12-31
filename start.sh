@@ -29,10 +29,10 @@ sudo apt-get install lib32gcc1 lib32stdc++6 -y
 echo "login anonymous 
 force_install_dir $DESTINATION/$SERVERNAMN
 app_update 740 validate
-quit" > install.cunt
+quit" > install.txt
 
 # nu ger vi filrättigheter till horfilen
-chmod 777 $STEAMCMD/install.cunt
+chmod 777 $STEAMCMD/install.txt
 
 # nu ska jag frågar jag om en server ska installeras, hela poängen med scriptet
 echo ""
@@ -40,7 +40,7 @@ echo ""
 echo "Okeee, vill du installera din server nu?"
 select yn in "JA" "Nej"; do
     case $yn in
-        JA ) bash $STEAMCMD/steamcmd.sh +runscript install.cunt; break;;
+        JA ) bash $STEAMCMD/steamcmd.sh +runscript install.txt; break;;
         Nej ) exit;;
     esac
 done
