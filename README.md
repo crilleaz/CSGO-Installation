@@ -2,8 +2,8 @@
 Installationsscript för CSGO-servrar
 
 # Linux
-curl https://raw.githubusercontent.com/Grozit/CSGO-Installation/main/start.sh
-
+wget https://raw.githubusercontent.com/Grozit/CSGO-Installation/main/start.sh
+chmod 777 start.sh
 sudo bash start.sh
 
 # Konfiguration (start.sh)
