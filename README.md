@@ -11,4 +11,3 @@ Följande 3 variabler går att ändra
 DESTINATION="/home/servrar"
 STEAMCMD="/home/steamcmd"
 SERVERNAMN="Cloudnet"
-
