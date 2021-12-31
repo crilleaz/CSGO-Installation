@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # här installeras dina csgo-serverar
 DESTINATION="/home/servrar"
 
@@ -44,3 +45,4 @@ select yn in "JA" "Nej"; do
         Nej ) exit;;
     esac
 done
+
