@@ -17,3 +17,6 @@ DESTINATION="/home/servrar"
 STEAMCMD="/home/steamcmd"
 
 SERVERNAMN="Cloudnet"
+
+# Discord
+Crille#6623
