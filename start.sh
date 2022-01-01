@@ -26,13 +26,13 @@ curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.g
 # nu hämtar vi lite x86-paket och gcc1
 sudo apt-get install lib32gcc1 lib32stdc++6 -y
 
-# dags att göra installationsargument för äckelservern
+# dags att göra installationsargument för servern
 echo "login anonymous 
 force_install_dir $DESTINATION/$SERVERNAMN
 app_update 740 validate
 quit" > install.txt
 
-# nu ger vi filrättigheter till horfilen
+# nu ger vi filrättigheter till install.txt
 chmod 777 $STEAMCMD/install.txt
 
 # nu ska jag frågar jag om en server ska installeras, hela poängen med scriptet
