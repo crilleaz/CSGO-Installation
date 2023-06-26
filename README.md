@@ -19,4 +19,4 @@ STEAMCMD="/home/steamcmd"
 SERVERNAMN="Cloudnet"
 
 # Discord
-Crille#6623
+Crilleaz
